@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.github.zeroxevie.muon.Fragments.SignUp_Fragment">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/signInText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Sign Up"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.Material.Title"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/explanationText"
+            android:layout_width="350dp"
+            android:layout_height="42dp"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="4dp"
+            android:text="Please create a password to lock your password vault"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/signUpPasswordField"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signInText"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/signUpPasswordField"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:ems="10"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <ImageButton
+            android:id="@+id/signUpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@android:drawable/ic_menu_send"
+            app:layout_constraintBottom_toBottomOf="@+id/signUpPasswordField"
+            app:layout_constraintStart_toEndOf="@+id/signUpPasswordField"
+            app:layout_constraintTop_toTopOf="@+id/signUpPasswordField"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

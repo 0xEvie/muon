@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Muon</string>
+    <string name="welcome_screen_app_name">muon</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string-array name="spinner_platform_record_type">
+        <item>Website</item>
+        <item>Application</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

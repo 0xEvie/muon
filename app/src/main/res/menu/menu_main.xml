@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.github.zeroxevie.muon.Activities.Activities.MainActivity">
+    <item
+        android:id="@+id/searchButton"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/lockButton"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_lock_lock"
+        android:title="Lock Vault"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>
